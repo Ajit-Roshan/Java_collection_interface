@@ -10,7 +10,8 @@ import java.util.Set;
 public class Coll_ection {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// count no. of char with and without duplication.
+		// count no. of occurrence of char in a string.
 
 		String nm= "mark zuckerberg";
 
@@ -23,8 +24,8 @@ public class Coll_ection {
 				arrChar.add(nm.charAt(i));
 			}
 		}
-		System.out.println("no dublication element :: "+chars);
-		System.out.println("arrayList all available chars:: "+arrChar);
+		System.out.println("no duplication  :: "+chars+" "+chars.size());
+		System.out.println("arrayList all available chars:: "+arrChar+" "+arrChar.size());
 		
 		System.out.println(" --------------------- --------------------- ------------------ ");
 		
