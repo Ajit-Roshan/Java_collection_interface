@@ -1,7 +1,6 @@
 package coll;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
@@ -13,7 +12,7 @@ public class Coll_ection {
 		// count no. of char with and without duplication.
 		// count no. of occurrence of char in a string.
 
-		String nm= "mark zuckerberg";
+		String nm= "mark zuckerberg and facebook";
 
 		Set<Character> chars= new HashSet<>();
 		List<Character> arrChar= new ArrayList<>();
